@@ -1,0 +1,9 @@
+POST http://localhost:9002/send-email
+content-type: application/json
+
+{
+    "name": "Victor",
+    "email": "vapedraza1706@gmail.com",
+    "subject": "Usuario",
+    "message": "Hola como vas"
+}
