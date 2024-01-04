@@ -24,5 +24,5 @@ docker build ../mailing-service/ -t mailing_service:x.x
 
 - Create container
 ````
-docker run --restart always --network network-pinnos --ip 172.124.0.12 --name mailing_service -p 9001:9001 -d mailing_service:x.x
+docker run --restart always --network network-survascun --ip 172.124.0.12 --name mailing_service -p 9001:9001 -d mailing_service:x.x
 ````
